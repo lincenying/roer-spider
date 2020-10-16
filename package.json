@@ -1,0 +1,27 @@
+{
+    "name": "roer-spider",
+    "version": "1.0.0",
+    "description": "roer-spider",
+    "author": "lincenying &lt;lincenying@gmail.com&gt;",
+    "private": true,
+    "scripts": {
+        "dev": "node index.js"
+    },
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.3",
+        "fs": "^0.0.2",
+        "locutus": "^2.0.11",
+        "mkdirp": "^0.5.1",
+        "path": "^0.12.7",
+        "request": "^2.88.0",
+        "request-promise": "^4.2.4",
+        "url": "^0.11.0"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "colors": "^1.3.3"
+    }
+}
