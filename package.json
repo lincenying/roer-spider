@@ -1,7 +1,7 @@
 {
-    "name": "weibo-fav",
+    "name": "www.roer.co.kr",
     "version": "1.0.0",
-    "description": "weibo-fav",
+    "description": "www.roer.co.kr",
     "author": "lincenying &lt;lincenying@gmail.com&gt;",
     "private": true,
     "scripts": {
@@ -9,23 +9,23 @@
     },
     "dependencies": {
         "async": "^3.2.0",
+        "axios": "^0.21.1",
         "cheerio": "^1.0.0-rc.3",
         "fs": "^0.0.2",
         "locutus": "^2.0.14",
+        "lodash": "^4.17.20",
         "mkdirp": "^1.0.4",
         "path": "^0.12.7",
-        "request": "^2.88.2",
-        "request-promise": "^4.2.6",
-        "socks5-http-client": "^1.0.4",
-        "socks5-https-client": "^1.2.1",
         "url": "^0.11.0"
     },
     "devDependencies": {
+        "axios-socks5-agent": "^1.0.1",
         "babel-core": "^6.26.3",
         "babel-polyfill": "^6.26.0",
         "babel-preset-es2015": "^6.24.1",
         "babel-preset-stage-0": "^6.24.1",
         "colors": "^1.4.0",
-        "eslint-config-lcy-js": "^3.1.1"
+        "eslint-config-lcy-js": "^3.1.1",
+        "iconv-lite": "^0.6.2"
     }
 }
