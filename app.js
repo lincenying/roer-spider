@@ -144,7 +144,7 @@ const makeDir = async item => {
             console.log('目录：%s 已经存在'.red, dir)
             resolve(item)
         } else {
-            node.mkdirp(dir, function () {
+            node.mkdirp(dir).then(() => {
                 console.log('目录：%s 创建成功'.green, dir)
                 resolve(item)
             })
@@ -192,7 +192,7 @@ const parseDetail = payload => {
 
 const downImage = (imgsrc, dir) => {
     return new Promise((resolve, reject) => {
-        const url = node.url.parse(imgsrc)
+        const url = new node.url.URL(imgsrc)
         const fileName = node.path.basename(url.pathname)
         const toPath = node.path.join(options.saveTo, dir, fileName)
         console.log('开始下载图片：%s，保存到：%s'.blue, fileName, dir)
