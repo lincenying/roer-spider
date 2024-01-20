@@ -1,9 +1,9 @@
 # 爬虫练习
 
 ```bash
-$yarn
+pnpm install
 #or
-$npm install
+npm install
 
-$npm run dev
+npm run dev
 ```
